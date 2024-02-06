@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    background-color: #081b31;
+    color: #968888;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+img:hover{
+    cursor: pointer;
+    /* background-color: #081b31; */
+    transform: scale(1.2);
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.mag-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#pic{
+    background-image: url("c:\Users\HP\Downloads\michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+
+}
+
